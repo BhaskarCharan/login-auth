@@ -1,0 +1,25 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="CheckBox">
+      <h1><b>LOGIN FORM</b></h1>
+      <form action="#" method="post" name="authentication" id="authentication" class="authentication">
+        <label for="username">Enter your Email :</label>
+        <br>
+        <input type="text" name="username" id="username" minlength="3" maxlenth="15" pattern="[a-zA-Z0-9]+" required>
+        <br>
+        <label for="password">Enter your Password :</label>
+        <br>
+        <input type="password" name="password" id="password" minlength="8" maxlength="15" pattern="[a-zA-Z0-9]+" required>
+        <br>
+        <button id="sub" type="submit" value="Submit" onclick="validate();">Login</button>
+      </form>
+    </section>
+  </body>  
+</html>
